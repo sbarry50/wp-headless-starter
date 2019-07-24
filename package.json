@@ -1,0 +1,33 @@
+{
+  "name": "wp-headless-starter",
+  "version": "1.0.0",
+  "description": "Plugin boilerplate for creating GraphQL supported WordPress plugins with the WP-Headless library and WP-GraphQL",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbarry50/wp-headless-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbarry50/wp-headless-starter/issues"
+  },
+  "homepage": "https://github.com/sbarry50/wp-headless-starter#readme",
+  "devDependencies": {
+    "laravel-mix": "^4.0.16",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.21.0",
+    "sass-loader": "^7.1.0"
+  }
+}

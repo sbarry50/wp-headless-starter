@@ -1,0 +1,3 @@
+<div>
+    <p><strong>NOTICE:</strong> You must set your Google API key to embed a Google map of your business. Full instructions to get an API key can be found in the <a href="https://developers.google.com/maps/documentation/embed/get-api-key" target="_blank">Google documentation</a>. Once you have a key you can save it on the <a href="<?=admin_url('admin.php?page=google-maps')?>">Google Maps settings page</a>.</p>
+</div>

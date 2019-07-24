@@ -1,0 +1,27 @@
+{
+  "name": "sbarry50/wp-headless-starter",
+  "description": "Plugin boilerplate for creating GraphQL supported WordPress plugins with the WP-Headless library and WP-GraphQL",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "wp-headless",
+    "wp-graphql"
+  ],
+  "homepage": "https://github.com/sbarry50/wp-headless-starter",
+  "license": "GPL-2.0+",
+  "autoload": {
+    "psr-4": {
+      "SB2Media\\Starter\\": "src/"
+    },
+    "classmap": [],
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.0",
+    "composer/installers": "~1.0",
+    "sb2-media/wp-headless-lib": "^0.3"
+  }
+}
