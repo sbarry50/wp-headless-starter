@@ -11,7 +11,7 @@ const mix = require("laravel-mix");
  |
  */
 
-mix.sass("resources/css/settings-admin.scss", "dist/css/");
+mix.sass("resources/css/headless-starter.scss", "dist/css/");
 
 mix
   .js("resources/js/main.js", "dist/js/")

@@ -1,6 +1,6 @@
 {
   "name": "sbarry50/wp-headless-starter",
-  "description": "Plugin boilerplate for creating GraphQL supported WordPress plugins with the WP-Headless library and WP-GraphQL",
+  "description": "Plugin boilerplate for creating GraphQL supported WordPress plugins with the WP-Headless library and WPGraphQL",
   "type": "wordpress-plugin",
   "keywords": [
     "wordpress",

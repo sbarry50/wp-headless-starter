@@ -5,7 +5,7 @@
  * @package    SB2Media\Starter
  * @since      1.0.0
  * @author     sbarry
- * @link       http://example.com
+ * @link       https://github.com/sbarry50/wp-headless-starter
  * @license    MIT
  */
 
@@ -91,12 +91,14 @@ return [
         ],
         'admin-enqueue' => [
             'class'  => SB2Media\Headless\Enqueue\EnqueueManager::class,
+            'app' => true,
             'config' => [
                 'admin-enqueue'
             ]
         ],
         'enqueue' => [
             'class'  => SB2Media\Headless\Enqueue\EnqueueManager::class,
+            'app' => true,
             'config' => [
                 'enqueue'
             ]
@@ -207,8 +209,8 @@ return [
     */
 
     'extension' => [
-        'example-graphql' => [
-            'class' => SB2Media\Starter\Example\ExampleGraphQL::class,
-        ],
+        // 'example-graphql' => [
+        //     'class' => SB2Media\Starter\Example\ExampleGraphQL::class,
+        // ],
     ],
 ];

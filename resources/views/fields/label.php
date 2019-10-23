@@ -1,1 +1,0 @@
-<label for="<?=$args['id']?>"><?=$args['args']['label']?></label>

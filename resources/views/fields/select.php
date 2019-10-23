@@ -1,7 +1,7 @@
 <?php if (array_key_exists('label', $args['args'])) : ?>
     <label for="<?=$args['id']?>"><?=$args['args']['label'] ?></label>
 <?php endif; ?>
-<select id="<?=$args['id']?>" name="<?=$args['id']?>">
+<select id="<?=$args['id']?>" name="<?=$args['id']?>" <?= (isset($args['args']['required']) && $args['args']['required'])  ? 'required' : ''; ?>>
     <option value="">--Please choose an option--</option>
     <?php foreach ($args['args']['options'] as $options) : ?>
         <?php if (!is_array($options)) {

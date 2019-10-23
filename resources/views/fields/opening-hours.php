@@ -1,1 +1,0 @@
-<business-hours :days="days.<?=SB2Media\Starter\app('hours-js')->daysID($args['id'])?>" name="<?=$args['id']?>" color="#0085ba"></business-hours>

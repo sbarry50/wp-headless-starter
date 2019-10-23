@@ -5,7 +5,7 @@
  * @package    SB2Media\Starter
  * @since      1.0.0
  * @author     sbarry
- * @link       http://example.com
+ * @link       https://github.com/sbarry50/wp-headless-starter
  * @license    MIT
  */
 
@@ -29,13 +29,13 @@ return [
     ********************************************************/
 
     'stylesheets' => [
-        // [
-        //     'id'       => 'settings-admin',
-        //     'src'          => SB2Media\Starter\url('dist/css/settings-admin.css'),
-        //     'dependencies' => [],
-        //     'version'      => false,
-        //     'media'       => 'all',
-        // ],
+        [
+            'id'       => 'headless-starter',
+            'src'          => SB2Media\Starter\url('dist/css/headless-starter.css'),
+            'dependencies' => [],
+            'version'      => false,
+            'media'       => 'all',
+        ],
     ],
 
     /*********************************************************

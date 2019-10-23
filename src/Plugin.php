@@ -5,7 +5,7 @@
  * @package    SB2Media\Starter
  * @since      1.0.0
  * @author     sbarry
- * @link       http://example.com
+ * @link       https://github.com/sbarry50/wp-headless-starter
  * @license    GNU General Public License 2.0+
  */
 

@@ -1,0 +1,65 @@
+.postbox.custom-meta-box .inside {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.meta-box-field-row {
+  display: flex;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.meta-box-field-row:last-of-type {
+  border-bottom: none;
+}
+
+.meta-box-field-label {
+  padding: 10px;
+  width: 15%;
+  background-color: #f9f9f9;
+  border-right: solid 1px #eeeeee;
+}
+
+.meta-box-field-title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.meta-box-field-description {
+  font-size: 12px;
+  color: #777777;
+}
+
+.meta-box-field {
+  padding: 20px;
+  width: 100%;
+  align-self: center;
+}
+
+.meta-box-field label {
+  display: inline-block;
+  margin: 0.25em 0 0.5em;
+  font-size: 13px;
+  line-height: 1.4em;
+}
+
+.meta-box-field input[type=color],
+.meta-box-field input[type=date],
+.meta-box-field input[type=datetime],
+.meta-box-field input[type=datetime-local],
+.meta-box-field input[type=email],
+.meta-box-field input[type=month],
+.meta-box-field input[type=number],
+.meta-box-field input[type=password],
+.meta-box-field input[type=search],
+.meta-box-field input[type=tel],
+.meta-box-field input[type=text],
+.meta-box-field input[type=time],
+.meta-box-field input[type=url],
+.meta-box-field input[type=week] {
+  height: 28px;
+}
+
+.form-table td .upload p {
+  margin-bottom: 10px;
+}
+

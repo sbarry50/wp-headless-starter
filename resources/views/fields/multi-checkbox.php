@@ -1,6 +1,6 @@
 <fieldset>
-    <?php if (array_key_exists('legend', $args['args'])) : ?>
-        <p><legend><?=$args['args']['legend'] ?></legend></p>
+    <?php if (array_key_exists('label', $args['args'])) : ?>
+        <p><legend><?=$args['args']['label'] ?></legend></p>
     <?php endif; ?>
     <?php foreach ($args['args']['options'] as $options) : ?>
         <?php if (!is_array($options)) {

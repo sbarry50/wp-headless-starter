@@ -3,12 +3,11 @@
     for ($i = 0; $i < $count; $i++) :
 ?>
     <input 
-        id="<?=$args['id'] . '-' . $count;?>" 
+        id="<?=str_replace('_', '-', $args['id']) . '-' . ($i + 1);?>" 
         class="regular-text ltr" 
-        name="<?=$args['id'][$i];?>"
+        name="<?=$args['id'] . '[]';?>"
         type="text" 
-        value="<?=$args['value'][$i];?>" 
-        placeholder="<?=(isset($args['args']['placeholder']) && $args['args']['placeholder'])  ? $args['args']['placeholder'] : '';?>" 
+        value="<?=is_array($args['value']) ? $args['value'][$i] : '';?>" 
         <?= (isset($args['args']['required']) && $args['args']['required'])  ? 'required' : ''; ?>
     />
 <?php endfor; ?>
