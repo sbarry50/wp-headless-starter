@@ -1,7 +1,7 @@
 <?php
 
 /*
-* Plugin Name: WP-Headless Starter
+* Plugin Name: WP Headless Starter
 * Description: Plugin boilerplate for creating GraphQL supported WordPress plugins with the WP-Headless library and WPGraphQL.
 * Version: 1.0.0
 * Author: sbarry50
