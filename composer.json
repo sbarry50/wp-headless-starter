@@ -9,7 +9,7 @@
     "wp-graphql"
   ],
   "homepage": "https://github.com/sbarry50/wp-headless-starter",
-  "license": "GPL-2.0+",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "SB2Media\\Starter\\": "src/"

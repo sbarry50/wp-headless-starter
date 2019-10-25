@@ -5,7 +5,7 @@
  * @package    SB2Media\Starter
  * @since      1.0.0
  * @author     sbarry50
- * @link       https://github.com/sbarry50/simple-wordpress-settings-pages
+ * @link       https://github.com/sbarry50/wp-headless-starter
  * @license    MIT
  */
 
